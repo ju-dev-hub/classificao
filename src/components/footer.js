@@ -38,9 +38,13 @@ const Footer = () => {
         <Container>
             <div>
                 <span >Compartilhe:</span>
-                <img alt="Instagram" src={instagram} width="25px" height="25px"/>
+                <a href="https://instagram.com/classificao_oficial" target="blank">
+                    <img alt="Instagram" src={instagram} width="25px" height="25px"/>
+                </a>                
                 <hr/>
-                <img alt="Facebook" src={facebook} width="25px" height="25px"/>
+                <a href="https://instagram.com/classificao_oficial" target="blank">
+                    <img alt="Facebook" src={facebook} width="25px" height="25px"/>
+                </a>                
             </div>
         </Container>
     );

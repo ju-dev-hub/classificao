@@ -9,6 +9,10 @@ const Container = styled.div`
     display: block;
     margin: 0px 52px;
 
+    @media (max-width: 1280px){
+        margin: 16px 32px;
+    }
+
     h3{
         font-family: "Montserrat";
         font-weight: 600;
@@ -16,8 +20,13 @@ const Container = styled.div`
         color: ${theme.$dark};
         letter-spacing: 2px;
         margin-bottom: 24px;
-        margin-top: 16px; 
-    }
+        margin-top: 16px;
+
+        @media (max-width: 1280px){
+            font-size: 40px;
+            margin-top: 0px;
+        };
+    };
 
     p{
         font-family: "Montserrat";
@@ -27,7 +36,11 @@ const Container = styled.div`
         letter-spacing: 0.1px;
         margin-bottom: 16px;
         width: 608px;
-        margin-bottom: 32px
+        margin-bottom: 32px;
+
+        @media (max-width: 1280px){
+            width: 100%;
+        };
     };
 
     input{
@@ -38,13 +51,28 @@ const Container = styled.div`
         height: 42px;
         color: ${theme["$primary-100"]};
         padding-left: 18px;
-        margin: 32px 0 16px 0
+        margin: 32px 0 16px 0;
+
+        @media (max-width: 1280px){
+            width: 100%;
+            padding-left: 0px;
+
+            ::-webkit-input-placeholder {
+                padding-left: 18px;
+            };
+        };
     };
 
     .lupa{
         position: relative;
         left: -40px;
-        top: 5px
+        top: 5px;
+
+        @media (max-width: 1280px){
+            float: right;
+            left: -12px;
+            top: -48px;
+        };
     };
 
     .card{
@@ -52,6 +80,10 @@ const Container = styled.div`
             display: flex;
             justify-content: space-evenly;
             flex-wrap: wrap;
+
+            @media (max-width: 1280px){
+                justify-content: flex-start;
+        };
         }
     };
 `;

@@ -6,15 +6,26 @@ import alma from "../../assets/img/alma.png";
 import classificao from "../../assets/img/classificao.png";
 import projetos from "../../assets/img/projeto.png";
 import especial from "../../assets/img/especial.png";
+import divisor from "../../assets/img/divisor-colorido.svg";
 
 const Container = styled.div`
     display: flex;
     justify-content: space-between;
     margin: 0px 52px;
 
+    .divisor{
+        display: none;            
+    }
+
     @media (max-width: 1280px) {
         display: block;
         align-items: center;
+        margin: 16px 32px;
+
+        .divisor{
+            display: block;
+            margin-bottom: 48px            
+        }
     };
 
     .item{
@@ -29,16 +40,20 @@ const Container = styled.div`
         margin-bottom: 60px;
 
         @media (max-width: 1280px) {
-            display: block;
             align-items: center;
             margin-bottom: 24px;
+            justify-content: center;      
         };
 
         img{
             margin-bottom: 8px;
             width: 280px;
             height: 170px;
-            border-radius: 8px
+            border-radius: 8px;
+
+            @media (max-width: 1280px) {
+                width: 250px;
+            };
         }
     }
 `;
@@ -46,6 +61,7 @@ const Container = styled.div`
 const Highlights = () => {
     return (
         <Container>
+            <img src={divisor} alt="Divisor de sessão" width="160px" height="50px" className="divisor"/>
             <Link to="/pets/especiais">
                 <div className="item">
                     <img src={especial} alt="Adoção Especial"/>

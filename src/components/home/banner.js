@@ -14,7 +14,7 @@ const Container = styled.div`
     font-family: "Montserrat";
 
     @media (max-width: 1280px) {
-        margin: 32px 32px 72px 32px;
+        margin: 32px 32px 48px 32px;
     };
 
     h1{

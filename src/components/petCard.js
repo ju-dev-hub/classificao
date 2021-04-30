@@ -38,7 +38,7 @@ const Container = styled.div`
         color: ${theme.$dark};
         letter-spacing: 0.1px;
         align-items: center;
-        display: flex;
+        display: flex;       
     };
 
     .instagram{
