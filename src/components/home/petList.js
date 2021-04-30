@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import PetCard from "../petCard";
 import lupa from "../../assets/img/pesquisar.svg";

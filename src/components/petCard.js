@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import dog from "../assets/img/dog-01.png";
-import like from "../assets/img/like.svg";
 import dislike from "../assets/img/dislike.svg";
 import instagram from "../assets/img/instagram-rosa.svg";
 import { theme } from "../assets/style/theme/_tokens";
