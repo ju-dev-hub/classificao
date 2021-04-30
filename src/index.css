@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url(./assets/fonts/Rubik-Regular.ttf);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./assets/fonts/Montserrat-Regular.ttf);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url(./assets/fonts/Montserrat-Bold.ttf);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input,
+:focus {
+  outline: none
+}
+
+a {
+  text-decoration: none;
+}
