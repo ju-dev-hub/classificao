@@ -24,7 +24,6 @@ yarn-error.log*
 
 # packages
 /package-lock.json
-/yarn.lock
 
 #dev configurations
 .eslintrc.json
