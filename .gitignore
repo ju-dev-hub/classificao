@@ -26,5 +26,4 @@ yarn-error.log*
 /package-lock.json
 
 #dev configurations
-.eslintrc.json
 .vscode
